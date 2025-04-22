@@ -10,32 +10,11 @@ To write a C program to find the **quotient** of two integer numbers.
 4. Print the values of `a`, `b`, and `quotient` using the `printf` function.
 5. Return 0 to indicate successful execution.
 
-## Sample Code
-```c
-#include <stdio.h>
+## Program
+Add code here
 
-int main() {
-    int a, b, quotient;
+## Output
 
-    // Read input values
-    printf("Enter the value of a: ");
-    scanf("%d", &a);
-    printf("Enter the value of b: ");
-    scanf("%d", &b);
+## Result
 
-    // Check for division by zero
-    if (b == 0) {
-        printf("Division by zero is not allowed.\n");
-        return 1;
-    }
-
-    // Calculate quotient
-    quotient = a / b;
-
-    // Display the result
-    printf("a = %d\n", a);
-    printf("b = %d\n", b);
-    printf("Quotient = %d\n", quotient);
-
-    return 0;
-}
+    
