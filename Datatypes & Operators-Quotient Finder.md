@@ -11,10 +11,36 @@ To write a C program to find the **quotient** of two integer numbers.
 5. Return 0 to indicate successful execution.
 
 ## Program
-Add code here
+```
+#include <stdio.h>
+
+int main() {
+    int a, b, quotient;
+    printf("Enter the first number (a): ");
+    scanf("%d", &a);
+    printf("Enter the second number (b): ");
+    scanf("%d", &b);
+    if (b != 0) {
+        quotient = a / b;
+        printf("a = %d, b = %d, quotient = %d\n", a, b, quotient);
+    } else {
+        printf("Error: Division by zero is not allowed.\n");
+    }
+
+   return 0; 
+}
+```
+
 
 ## Output
+```
+User Input:
+Enter the first number (a): 20
+Enter the second number (b): 4
+Program Output:
+a = 20, b = 4, quotient = 5
+```
 
 ## Result
-
+programme was implemented and executed.
     
