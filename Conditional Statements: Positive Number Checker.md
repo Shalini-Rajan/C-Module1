@@ -16,8 +16,29 @@ Otherwise, print a message indicating that it's not a positive number.
 End the program.
 
 ## Program
-Add Code Here
+```
+#include <stdio.h>
+
+int main() {
+    int A;  
+    printf("Enter a number: ");
+    scanf("%d", &A);
+    if (A > 0) {
+        printf("A is a positive number.\n");
+    } else {
+        printf("A is not a positive number.\n");
+    }
+    return 0; 
+}
+```
 
 ## Output
+```
+User Input:
+Enter a number: 10
+Program Output:
+A is a positive number.
+```
 
 ## Result
+programme was implemented and executed.
