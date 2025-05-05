@@ -19,7 +19,7 @@ To write a C program that prints the ASCII value of the characters 'a', 'z', 'A'
 int main() {
     char ch;
     printf("Enter a character (a, z, A, or Z): ");
-    scanf(" %c", &ch);  // The space before %c skips any leading whitespace
+    scanf(" %c", &ch);  e
     switch (ch) {
         case 'a':
         case 'z':
